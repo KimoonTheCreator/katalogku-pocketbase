@@ -1,0 +1,71 @@
+@pbUrl = http://192.168.137.20:8091
+
+### Seed Product 1
+POST {{pbUrl}}/api/collections/products/records
+Content-Type: application/json
+
+{
+  "title": "Laptop Gaming OMEN 15",
+  "description": "Laptop gaming performa tinggi dengan AMD Ryzen dan NVIDIA RTX 3060",
+  "category": "Electronics",
+  "price": 15000000,
+  "rating": 4.8,
+  "stock": 10,
+  "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302"
+}
+
+### Seed Product 2
+POST {{pbUrl}}/api/collections/products/records
+Content-Type: application/json
+
+{
+  "title": "Mechanical Keyboard Mchose P75",
+  "description": "Keyboard mekanikal 75% aluminum tri-mode gasket mount",
+  "category": "Peripherals",
+  "price": 1200000,
+  "rating": 4.9,
+  "stock": 25,
+  "thumbnail": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+}
+
+### Seed Product 3
+POST {{pbUrl}}/api/collections/products/records
+Content-Type: application/json
+
+{
+  "title": "Monitor Skyworth H27G30Q",
+  "description": "Monitor IPS 27 inci 2K 2560x1440 180Hz gaming display",
+  "category": "Electronics",
+  "price": 2500000,
+  "rating": 4.7,
+  "stock": 15,
+  "thumbnail": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf"
+}
+
+### Seed Product 4
+POST {{pbUrl}}/api/collections/products/records
+Content-Type: application/json
+
+{
+  "title": "Kefine In-Ear Monitors",
+  "description": "IEM audio presisi dengan detail nada tinggi dan bass seimbang",
+  "category": "Audio",
+  "price": 850000,
+  "rating": 4.6,
+  "stock": 30,
+  "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
+}
+
+### Seed Product 5
+POST {{pbUrl}}/api/collections/products/records
+Content-Type: application/json
+
+{
+  "title": "ESP32 Microcontroller Board",
+  "description": "Board IoT Wi-Fi + Bluetooth untuk prototyping sensor",
+  "category": "Electronics",
+  "price": 75000,
+  "rating": 4.9,
+  "stock": 50,
+  "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+}
